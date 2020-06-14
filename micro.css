@@ -1,0 +1,71 @@
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+
+  background: #fff;
+  padding: 1.2em;
+
+   margin: 0;
+
+
+}
+.site-brending {
+  position: absolute;
+  bottom: 120px;
+}
+.navigation {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+}
+.nav-list li {
+  font-size: 1.2em;
+  color: #222;
+  text-decoration: none;
+  list-style: none;
+}
+
+.topchik {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header {
+  background-image: url(https://microdevops.com/wp-content/uploads/2019/01/cropped-thomas-kvistholt-191153-unsplash-4.jpg);
+  height: 100vh;
+}
+
+
+.wrap-nav {
+  padding: 3em 3em 0 3em;
+  max-width: 800px;
+  margin: 0;
+}
+
+.site-title {
+  color: #fff;
+  font-size: 2em;
+}
+
+.site-desc {
+  color: #fff;
+  opacity: 0.8;
+  line-height: 40px;
+  margin: 0;
+}
+
+.block {
+  background-image: url(https://i2.wp.com/microdevops.com/wp-content/uploads/2019/02/cesar-carlevarino-aragon-778069-unsplash.jpg?resize=2000%2C1200&ssl=1);
+  height: 100vh;
+}
